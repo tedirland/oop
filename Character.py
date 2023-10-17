@@ -11,5 +11,6 @@ class Character():
         self.level = hp
         self.level = weapon
         self.level = inventory
+    
         
     

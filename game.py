@@ -1,5 +1,6 @@
 from Character import Character
 from GameSettings import GameSettings
+from battle_engine_function import battle_engine
 
 game_settings = GameSettings()
 character_name = input("Well met, stranger. Welcome to the Drunken Dragon! What be thine name? > ")
@@ -23,4 +24,11 @@ while game_on:
     for option in game_settings.main_options:
         print(f"{option['input_key']}. {option['text']} ")
     action = input("> ")
+    if action == "1":
+        battle_engine(the_hero,enemies)
+    elif action == "q":
+        game_on = False
+    
+
+
 
