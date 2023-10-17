@@ -4,13 +4,13 @@ class Character():
         self.character_name = character_name
         self.xp = xp
         self.level = level
-        self.level = gold
-        self.level = attack_power
-        self.level = defense
-        self.level = max_hp
-        self.level = hp
-        self.level = weapon
-        self.level = inventory
+        self.gold = gold
+        self.attack_power = attack_power
+        self.defense = defense
+        self.max_hp = max_hp
+        self.hp = hp
+        self.weapon = weapon
+        self.inventory = inventory
     
         
     
